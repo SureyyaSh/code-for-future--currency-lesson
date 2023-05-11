@@ -1,0 +1,167 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: rgb(8, 3, 64);
+	background: linear-gradient(90deg, rgba(8, 3, 64, 1) 0%, rgba(227, 176, 236, 1) 0%, rgba(240, 242, 179, 1) 59%, rgba(191, 227, 225, 1) 80%, rgba(61, 99, 93, 1) 91%, rgba(33, 77, 80, 1) 96%, rgba(213, 123, 140, 1) 97%, rgba(11, 59, 69, 1) 100%, rgba(6, 71, 84, 1) 100%);
+}
+
+* {
+	margin: auto;
+}
+
+h1 {
+	color: whitesmoke;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0;
+	padding-left: 50px;
+	font-size: 35px;
+	background: -webkit-linear-gradient(#c58a8a, #53094a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.currency-buttons-left {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.currency-buttons-right {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.currency-button-left,
+.currency-button-right {
+	font-size: 16px;
+	padding: 10px;
+	width: 80px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.currency-button-left:hover,
+.currency-button-right:hover {
+	background-color: #ccc;
+	color: whitesmoke;
+}
+
+
+
+.conversion-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 90px;
+}
+
+.conversion-from,
+.conversion-to {
+	width: 30%;
+	height: 200px;
+	border: 1px solid #979494;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #979494;
+
+
+}
+
+.conversion-from h2 input,
+.conversion-to h2 input {
+	font-size: 45px;
+	font-weight: bold;
+	width: 90%;
+	text-align: left;
+	margin-left: 5px;
+	border: none;
+}
+
+.conversion-from h2 input:focus {
+	outline: none;
+}
+
+.conversion-to h2 input:focus {
+	outline: none;
+}
+
+.conversion-from input,
+.conversion-to input {
+	display: block;
+	padding-top: 40px;
+	padding-left: 20px;
+	border: 1px solid #979494;
+	border-radius: 3px;
+	width: 90%;
+	box-sizing: border-box;
+	background-color: #979494;
+}
+
+#to-currency,
+#from-currency {
+	display: none;
+}
+
+#exchange-rate-reverse {
+	padding-left: 27px;
+	color: darkslateblue;
+}
+
+#exchange-rate {
+	padding-left: 27px;
+	color: darkslateblue;
+}
+
+.heading {
+	font-size: 70px;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-top: 100px;
+	color: rgb(0, 0, 0);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.log {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.login {
+	padding: 20px 40px;
+	transition: .3s ease;
+	cursor: pointer;
+	font-weight: bold;
+}
+.login:hover{
+	background: rgb(8,3,64);
+background: linear-gradient(90deg, rgba(8,3,64,1) 0%, rgba(227,176,236,1) 0%, rgba(240,242,179,1) 59%, rgba(191,227,225,1) 80%, rgba(61,99,93,1) 91%, rgba(33,77,80,1) 96%, rgba(213,123,140,1) 97%, rgba(11,59,69,1) 100%, rgba(6,71,84,1) 100%);
+transition: .3s ease;
+border-radius: 10px;
+}
